@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Roboto&display=swap" rel="stylesheet"> 
+    <title>Basketball Game</title>
+</head>
+<body id="contents">
+    <div class="project">
+        <div class="main">
+            <div class="home">
+                <h1 class="title">HOME</h1>
+                <h1 class="trackScore" id="scoreHome">0</h1>
+                <div class="scoresIncHome">
+                    <h2 class="addScore" id="plusOneHome" onclick="addOneHome()">+1</h2>
+                    <h2 class="addScore" id="plusTwoHome" onclick="addTwoHome()">+2</h2>
+                    <h2 class="addScore" id="plusThreeHome" onclick="addThreeHome()">+3</h2>
+                </div>
+            </div>
+            <div class="guest">
+                <h1 class="title">GUEST</h1>
+                <h1 class="trackScore" id="scoreGuest">0</h1>
+                <div class="scoresIncGuest">
+                    <h2 class="addScore"  id="plusOneGuest" onclick="addOneGuest()">+1</h2>
+                    <h2 class="addScore"  id="plusTwoGuest" onclick="addTwoGuest()">+2</h2>
+                    <h2 class="addScore"  id="plusThreeGuest" onclick="addThreeGuest()">+3</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
